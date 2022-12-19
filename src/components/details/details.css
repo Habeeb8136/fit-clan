@@ -1,0 +1,40 @@
+.details {
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+
+.details > form {
+  background-color: rgba(31, 5, 54, 0.39);
+  padding: 2rem 5rem;
+  border-radius: 1rem;
+}
+
+.details > form,
+form > .name_container,
+form > .age_container,
+form > .weight_container,
+form > .meals_container,
+form > .activeMinutes_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.details > form > div > div > input {
+  width: 100%;
+  font-size: small;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+.details > form > div > div > input:focus {
+  outline: none;
+}
+
+.ans {
+  display: flex;
+  flex-direction: column;
+}

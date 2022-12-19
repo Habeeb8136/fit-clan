@@ -1,0 +1,112 @@
+.quoteWrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  filter: blur(15);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.8rem;
+}
+
+.quoteWrapper > h5 {
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 1);
+  filter: blur(15);
+  cursor: default;
+}
+
+.homeContainer {
+  padding-inline: 25px;
+  padding: 1.5rem;
+}
+
+.shopWrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  filter: blur(15);
+  color: white;
+  border-radius: 0.8rem;
+  margin-inline: 20px;
+  list-style-type: symbols();
+}
+
+.getStartedWrapper {
+  filter: blur(15);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.8rem;
+}
+
+.GetstartedWrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+
+  background-size: cover;
+  height: 500px;
+  display: block;
+
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8rem;
+}
+
+.Getstarted-Diet {
+  font-size: 1.1rem;
+  background-color: #4e4e4e60;
+  overflow: hidden;
+  height: 45%;
+  padding: 1.2rem;
+  margin: 0.8rem;
+  border-radius: 0.8rem;
+  color: rgb(231, 231, 231);
+  text-shadow: 2px 0px rgba(39, 39, 39, 0.388);
+}
+
+
+.Getstarted-Workout:hover,
+.Getstarted-Diet:hover {
+  background-color: rgba(31, 31, 31, 0.634);
+}
+
+.buttonDiv,
+.buttonDiv button {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.buttonDiv Button {
+  border: none;
+  color: rgb(0, 0, 0);
+  background-color: #b58effec;
+  box-shadow: 2px 2px 2px #00000080, 10px 5px 12px #00000080;
+  border-radius: 0.8rem;
+}
+
+.Getstarted-Workout {
+  height: 45%;
+  background-color: #4e4e4e60;
+  color: black;
+  padding: 1.2rem;
+  margin: 0.8rem;
+  border-radius: 0.8rem;
+  justify-content: center;
+  align-items: center;
+  color: rgb(231, 231, 231);
+  text-shadow: 2px 0px rgba(39, 39, 39, 0.388);
+  font-size: 1.1rem;
+  overflow: hidden;
+}
+
+
+/* ========= Media Queries For Small Devices (Mobiles) ========= */
+@media screen and (max-width: 600px) {
+  .rowWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .quoteWrapper {
+    display: none;
+  }
+}

@@ -1,0 +1,124 @@
+.exerciseWrapper {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 70px;
+    overflow: hidden;
+}
+
+.exerciseWrapper video {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.exerciseSelector {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.selector {
+    width: 25%;
+    margin: 0.2px;
+    transition: 0.2s;
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+    padding: 2rem;
+    padding-top: 5%;
+    display: flex;
+    font-size: larger;
+    text-shadow: 2px 2px 3px black;
+
+}
+
+.exerciseSelector div h2 {
+    text-align: center;
+}
+
+.exerciseSelector .selector:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 1;
+    z-index: 2;
+}
+
+.div1 {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: url('http://cdn.shopify.com/s/files/1/0430/6533/files/3_Health_Benefits_of_Treadmills.jpg?v=1577724561');
+    background-size: cover;
+    background-position: -300px;
+
+}
+
+.div2 {
+    background-image: url('https://cdn.shopify.com/s/files/1/1633/7705/articles/fasted_cardio_2000x.jpg?v=1654616924');
+    background-size: cover;
+
+}
+
+.div4 {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url('https://cdn.muscleandstrength.com/sites/default/files/calisthenics-feature.jpg');
+    background-size: 245%;
+    background-position: -300px;
+
+}
+
+.div3 {
+    background-image: url('https://thumbs.dreamstime.com/b/athletic-black-couple-doing-lunges-home-workout-copy-space-domestic-training-covid-lockdown-athletic-black-couple-doing-218221373.jpg');
+    background-size: cover;
+    background-position: -150px;
+
+
+}
+
+.divTextBg {
+    background-color: rgba(0, 0, 0, 0.822);
+    height: fit-content;
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .exerciseWrapper {
+        padding: 0;
+        display: block;
+    }
+
+    .exerciseSelector,
+    .exerciseSelector h2,
+    .exerciseSelector h5 {
+        font-size: 15px;
+        display: block;
+    }
+
+    .selector {
+        width: 100%;
+    }
+
+    .div1,
+    .div2,
+    .div3,
+    .div4 {
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        padding-block: 15%;
+    }
+
+    .divTextBg {
+        width: 98%;
+    }
+
+}

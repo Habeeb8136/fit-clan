@@ -1,0 +1,26 @@
+.contactWrapper {
+  background: rgba(0, 0, 0, 0.5);
+  margin: 3rem 5rem;
+  text-align: center;
+  color: white;
+  border-radius: 1rem;
+}
+
+.ttl {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+
+.inputBox {
+  width: 500px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  text-align: left;
+  border: 1px solid transparent;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+}

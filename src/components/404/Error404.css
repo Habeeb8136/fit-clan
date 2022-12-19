@@ -1,0 +1,13 @@
+.error {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 5rem;
+  border-radius: 2rem;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+.error > img {
+    width: 10rem;
+}
